@@ -1,4 +1,4 @@
-I"—Q
+I"<M
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -69,7 +69,7 @@
                     <div class="wrapthumbnail">
                         <a href="/quick-start-guide/">
                             
-                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/12.jpg" />
+                            <img class="featured-box-img-cover" src="/assets/images/12.jpg" />
                             
                         </a>
                     </div>
@@ -91,11 +91,11 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&amp;d=mm&amp;r=x" alt="" />
+                                <img class="author-thumb" src="/assets/images/ryan.png" alt="Ryan" />
                                 
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a target="_blank" href=""></a></span><br />
+                                <span class="post-name"><a target="_blank" href="https://fabiryan.com">Ryan</a></span><br />
                                 
                                 <span class="post-date">11 Jan 2018</span>
                                 </span>
@@ -127,7 +127,7 @@
                     <div class="wrapthumbnail">
                         <a href="/customer-service/">
                             
-                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/11.jpg" />
+                            <img class="featured-box-img-cover" src="/assets/images/11.jpg" />
                             
                         </a>
                     </div>
@@ -162,11 +162,11 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="/assets/images/avatar.png" alt="John" />
+                                <img class="author-thumb" src="/assets/images/fabi.png" alt="Fabi" />
                                 
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net">John</a></span><br />
+                                <span class="post-name"><a target="_blank" href="https://fabiryan.com">Fabi</a></span><br />
                                 
                                 <span class="post-date">11 Jan 2018</span>
                                 </span>
@@ -213,7 +213,7 @@
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/16.jpg" alt="Powerful things you can do with the Markdown editor" />
+                        <img class="img-fluid" src="/assets/images/16.jpg" alt="Powerful things you can do with the Markdown editor" /> 
                     
 
                 
@@ -259,7 +259,7 @@
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/17.jpg" alt="The first mass-produced book to deviate from a rectilinear format" />
+                        <img class="img-fluid" src="/assets/images/17.jpg" alt="The first mass-produced book to deviate from a rectilinear format" /> 
                     
 
                 
@@ -305,7 +305,7 @@
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/3.jpg" alt="Education must also train one for quick, resolute and effective thinking." />
+                        <img class="img-fluid" src="/assets/images/3.jpg" alt="Education must also train one for quick, resolute and effective thinking." /> 
                     
 
                 
@@ -324,11 +324,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/assets/images/avatar.png" alt="John" />
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&amp;d=mm&amp;r=x" alt="" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net">John</a></span><br />
+                <span class="post-name"><a target="_blank" href=""></a></span><br />
                 
                 <span class="post-date">12 Jun 2018</span>
                 </span>
@@ -352,7 +352,7 @@
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/15.jpg" alt="Accumulated experience of social living" />
+                        <img class="img-fluid" src="/assets/images/15.jpg" alt="Accumulated experience of social living" /> 
                     
 
                 
@@ -399,7 +399,7 @@
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/2.jpg" alt="About Bundler" />
+                        <img class="img-fluid" src="/assets/images/2.jpg" alt="About Bundler" /> 
                     
 
                 
@@ -457,7 +457,7 @@
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/5.jpg" alt="We all wait for summer" />
+                        <img class="img-fluid" src="/assets/images/5.jpg" alt="We all wait for summer" /> 
                     
 
                 
@@ -487,11 +487,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/assets/images/avatar.png" alt="John" />
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&amp;d=mm&amp;r=x" alt="" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net">John</a></span><br />
+                <span class="post-name"><a target="_blank" href=""></a></span><br />
                 
                 <span class="post-date">12 Jan 2018</span>
                 </span>
