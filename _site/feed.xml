@@ -3,10 +3,10 @@
   <channel>
     <title>fabiryan</title>
     <description>IT로 시작하는 스마트라이프</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jul 2022 06:04:17 -0500</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2022 06:04:17 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Jul 2022 06:24:38 -0500</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2022 06:24:38 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -130,8 +130,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/powerful-things-markdown-editor/</link>
-        <guid isPermaLink="true">http://localhost:4000/powerful-things-markdown-editor/</guid>
+        <link>/powerful-things-markdown-editor/</link>
+        <guid isPermaLink="true">/powerful-things-markdown-editor/</guid>
         
         
         <category>Jekyll</category>
@@ -155,8 +155,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/first-mass-produced/</link>
-        <guid isPermaLink="true">http://localhost:4000/first-mass-produced/</guid>
+        <link>/first-mass-produced/</link>
+        <guid isPermaLink="true">/first-mass-produced/</guid>
         
         
         <category>Jekyll</category>
@@ -212,8 +212,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/education/</link>
-        <guid isPermaLink="true">http://localhost:4000/education/</guid>
+        <link>/education/</link>
+        <guid isPermaLink="true">/education/</guid>
         
         
         <category>Jekyll</category>
@@ -237,8 +237,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/acumulated-experience/</link>
-        <guid isPermaLink="true">http://localhost:4000/acumulated-experience/</guid>
+        <link>/acumulated-experience/</link>
+        <guid isPermaLink="true">/acumulated-experience/</guid>
         
         
         <category>Jekyll</category>
@@ -260,8 +260,8 @@
 &lt;p&gt;For more information about how to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 May 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/about-bundler/</link>
-        <guid isPermaLink="true">http://localhost:4000/about-bundler/</guid>
+        <link>/about-bundler/</link>
+        <guid isPermaLink="true">/about-bundler/</guid>
         
         
         <category>Jekyll</category>
@@ -275,8 +275,8 @@
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/we-all-wait-for-summer/</link>
-        <guid isPermaLink="true">http://localhost:4000/we-all-wait-for-summer/</guid>
+        <link>/we-all-wait-for-summer/</link>
+        <guid isPermaLink="true">/we-all-wait-for-summer/</guid>
         
         
         <category>Jekyll</category>
@@ -301,8 +301,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/tree-of-codes/</link>
-        <guid isPermaLink="true">http://localhost:4000/tree-of-codes/</guid>
+        <link>/tree-of-codes/</link>
+        <guid isPermaLink="true">/tree-of-codes/</guid>
         
         
         <category>Jekyll</category>
@@ -326,8 +326,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/red-riding/</link>
-        <guid isPermaLink="true">http://localhost:4000/red-riding/</guid>
+        <link>/red-riding/</link>
+        <guid isPermaLink="true">/red-riding/</guid>
         
         
         <category>Jekyll</category>
@@ -354,8 +354,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/press-and-education/</link>
-        <guid isPermaLink="true">http://localhost:4000/press-and-education/</guid>
+        <link>/press-and-education/</link>
+        <guid isPermaLink="true">/press-and-education/</guid>
         
         
         <category>Jekyll</category>
@@ -377,8 +377,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/options-for-creating-new-site-with-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/options-for-creating-new-site-with-jekyll/</guid>
+        <link>/options-for-creating-new-site-with-jekyll/</link>
+        <guid isPermaLink="true">/options-for-creating-new-site-with-jekyll/</guid>
         
         
         <category>Jekyll</category>

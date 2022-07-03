@@ -15,14 +15,12 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="IT로 시작하는 스마트라이프" />
 <meta property="og:description" content="IT로 시작하는 스마트라이프" />
-<link rel="canonical" href="http://localhost:4000/about" />
-<meta property="og:url" content="http://localhost:4000/about" />
 <meta property="og:site_name" content="fabiryan" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Mediumish Template for Jekyll" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"IT로 시작하는 스마트라이프","headline":"Mediumish Template for Jekyll","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"url":"http://localhost:4000/about"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"IT로 시작하는 스마트라이프","headline":"Mediumish Template for Jekyll","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"}},"url":"/about"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -79,21 +77,11 @@
                 <a class="nav-link" href="/about">About</a>
                 </li>
 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-                </li>
-
+                <!--
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
                 </li>
+                -->
 
                 <script src="/assets/js/lunr.js"></script>
 
@@ -188,7 +176,7 @@
             <section class="disqus">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
-        var disqus_shortname = 'demowebsite'; 
+        var disqus_shortname = ''; 
         var disqus_developer = 0;
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -207,20 +195,6 @@
 </section>
 </div>
 
-
-<!-- Bottom Alert Bar
-================================================== -->
-<div class="alertbar">
-	<div class="container text-center">
-		<span><img src="/assets/images/logo.png" alt="fabiryan"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-            <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
-            </div>
-        </form>
-	</div>
-</div>
 
     
 </div>
@@ -278,6 +252,8 @@
 
 <script src="/assets/js/mediumish.js"></script>
 
+
+<script src="/assets/js/lazyload.js"></script>
 
 
 <script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 

@@ -5,22 +5,20 @@ description: "IT로 시작하는 스마트라이프"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+google_analytics: ''
+disqus: ''
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  ryan:
+    name: Ryan Lee
+    display_name: Ryan
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    email: ryan@fabiryan.com
+    web: https://fabiryan.com
+    description: "애플과 IT로 삶을 자동화하는 귀차니스트"
   john:
     name: John
     display_name: John    
@@ -67,6 +65,6 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
