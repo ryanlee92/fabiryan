@@ -5,6 +5,10 @@
 <lastmod>2022-07-04T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>/why-choose-jekyll/</loc>
+<lastmod>2022-07-04T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>/about</loc>
 </url>
 <url>
@@ -21,5 +25,11 @@
 </url>
 <url>
 <loc>/category/thoughts/</loc>
+</url>
+<url>
+<loc>/category/jekyll/</loc>
+</url>
+<url>
+<loc>/category/nas/</loc>
 </url>
 </urlset>

@@ -5,9 +5,44 @@
     <description>IT로 시작하는 스마트라이프</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jul 2022 09:46:52 -0500</pubDate>
-    <lastBuildDate>Mon, 04 Jul 2022 09:46:52 -0500</lastBuildDate>
+    <pubDate>Mon, 04 Jul 2022 10:04:45 -0500</pubDate>
+    <lastBuildDate>Mon, 04 Jul 2022 10:04:45 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>왜 블로그를 직접 만들었을까?</title>
+        <description>&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;작성중...
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;!-- 
+---
+layout: post
+title:  &quot;Inception Movie&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+tags: [red, yellow]
+image: assets/images/11.jpg
+description: &quot;My review of Inception movie. Actors, directing and more.&quot;
+rating: 4.5
+featured: true
+hidden: false
+beforetoc: &quot;Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post.&quot;
+toc: true // 목차를 사용할 것인지
+--- 
+--&gt;
+</description>
+        <pubDate>Mon, 04 Jul 2022 00:00:00 -0500</pubDate>
+        <link>/why-choose-jekyll/</link>
+        <guid isPermaLink="true">/why-choose-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>blog</category>
+        
+        <category>nas</category>
+        
+      </item>
     
       <item>
         <title>블로그를 시작하며..</title>
