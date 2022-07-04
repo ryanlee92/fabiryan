@@ -106,14 +106,20 @@ section.recent-posts {
 
 .listfeaturedtag {
     border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem;
+    border-radius: 1rem;
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    overflow: hidden;
 }
 
 .listfeaturedtag .wrapthumbnail {
     height: 290px;
     flex: 0 0 auto;
     height: 100%;
+}
+
+.card-group>.card:only-child {
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 .maxthumb {
@@ -132,8 +138,9 @@ section.recent-posts {
     display: block;
     background-position: 38% 22% !important;
     background-origin: border-box !important;
-    border-top-left-radius: .25rem;
-    border-bottom-left-radius: .25rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    object-fit: cover;
 }
 
 .listfeaturedtag .card-block {
