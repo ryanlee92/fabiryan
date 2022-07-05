@@ -2,7 +2,7 @@
 layout: post
 title:  "Flutter: Resize GIFs"
 author: ryan
-categories: [ Jekyll, tutorial ]
+categories: [ flutter, development ]
 description: "Flutter 에서 GIF를 리사이즈 하는 법에 대한 포스트"
 featured: false
 hidden: false
