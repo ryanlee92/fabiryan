@@ -11,11 +11,11 @@ hidden: false
 현재 재직중인 회사에서는 프론트엔드 프레임워크로 Flutter를 사용하고 있다.
 그런데 오늘 업무를 하다 GIF를 리사이징해야 하는 상황이 있었는데, `flutter resize gif` 등의 키워드로 구글링을 해도 결과가 나오지 않았다.
 
-결국 해결책을 발견하긴 했는데, 이 포스트가 같은 문제를 겪는 사람들에게 도움이 되길 바란다.
+결국 해결책을 발견했는데, 이 포스트가 같은 문제를 겪는 사람들에게 도움이 되길 바란다.
 
 ## 사용되는 라이브러리
 기본적으로 이미지를 고르는 `image_picker`를 사용하고, gif 리사이즈를 위해 FFmpeg 라이브러리를 사용했다.
-FFmpeg 라이브러리는 크게 `flutter_ffmpeg`, `ffmpeg_kit_flutter`, `ffmpeg_cli` 등이있는데, discontinued 된 라이브러리긴 하지만 discontinued 되기 전부터 사용하고 있었던 `flutter_ffmpeg`를 사용하기로 했다. (기본적으로 ffmpeg를 사용하기 때문에 들어가는 쿼리는 동일하다. 따라서 어떤 라이브라리를 쓰더라도 ffmpeg를 쓰는 한 동일한 쿼리를 넣으면 된다.)
+FFmpeg 라이브러리는 크게 `flutter_ffmpeg`, `ffmpeg_kit_flutter`, `ffmpeg_cli` 등이 있는데, discontinued 된 라이브러리이긴 하지만 discontinued 되기 전부터 사용하고 있었던 `flutter_ffmpeg`를 사용하기로 했다. (기본적으로 ffmpeg를 사용하기 때문에 들어가는 쿼리는 동일하다. 따라서 어떤 라이브라리를 쓰더라도 ffmpeg를 쓰는 한 동일한 쿼리를 넣으면 된다.)
 
 ## Resizing Method
 먼저 `image_picker` 라이브러리에서 이미지를 선택한다. 선택한 이미지는 `XFile`이라는 타입을 반환하게 되는데, 리사이징하는 함수는 이 `XFile` 과 `BuildContext`를 받아서 만들게 된다.
