@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Flutter: Resize GIFs"
+title:  "Flutter: Resize GIF"
 author: ryan
 categories: [ flutter, development ]
 description: "Flutter 에서 GIF를 리사이즈 하는 법에 대한 포스트"
@@ -14,7 +14,7 @@ hidden: false
 결국 해결책을 발견했는데, 이 포스트가 같은 문제를 겪는 사람들에게 도움이 되길 바란다.
 
 ## 사용되는 라이브러리
-기본적으로 이미지를 고르는 `image_picker`를 사용하고, gif 리사이즈를 위해 FFmpeg 라이브러리를 사용했다.
+기본적으로 이미지를 고르는 `image_picker`를 사용하고, gif 리사이징을 위해 FFmpeg 라이브러리를 사용했다.
 FFmpeg 라이브러리는 크게 `flutter_ffmpeg`, `ffmpeg_kit_flutter`, `ffmpeg_cli` 등이 있는데, discontinued 된 라이브러리이긴 하지만 discontinued 되기 전부터 사용하고 있었던 `flutter_ffmpeg`를 사용하기로 했다. (기본적으로 ffmpeg를 사용하기 때문에 들어가는 쿼리는 동일하다. 따라서 어떤 라이브라리를 쓰더라도 ffmpeg를 쓰는 한 동일한 쿼리를 넣으면 된다.)
 
 ## Resizing Method
@@ -22,7 +22,7 @@ FFmpeg 라이브러리는 크게 `flutter_ffmpeg`, `ffmpeg_kit_flutter`, `ffmpeg
 
 함수 코드는 아래와 같다.
 
-```
+```dart
 FutureOr<Uint8List?> resizeAndCropImage({required XFile image, required BuildContext context}) async {
     Uint8List? data;
     if (!kIsWeb && image.path.split('.').last != 'gif') {
@@ -67,9 +67,6 @@ Future<Uint8List> cropImage(XFile image, BuildContext context, int maxHeight, in
 먼저 gif인지 아닌지에 대해 판단을 한다. path의 마지막이 gif로 끝나는지 확인하고 gif가 아닌 일반 이미지라면 `FlutterImageCompress` 라이브러리를 통해 그냥 압축한다.
 
 반면 gif라면 플랫폼이 웹일때는 압축이 불가능하고 (ffmpeg 라이브러리가 support하지 않는다.) 앱인 경우에는 `_flutterFFmpeg.execute` 안에 있는 쿼리를 통해 리사이즈 한다. 만약 이를 실패하면 압축을 포기하고 원래 값을 뱉는다.
-
-## 후기
-FFmpeg라는 라이브러리에 대해 자세히 알지는 못하지만 이전에 비디오를 gif로 해당 라이브러리를 통해 변환했던 경험이 있어서 FFmpeg를 통해 gif를 리사이징 할 수 있을것이란 가설을 세웠는데, 그 가설이 적중했다. 다행히 `ffmpeg resize gif` 검색어로 구글링 했을때 관련 내용을 찾을 수 있었고 생각보다 쉽게 해결했다. 끝!
 
 <!-- 
 ---
