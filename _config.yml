@@ -6,9 +6,10 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: ''
-disqus: ''
+disqus: 'fabiryan-com'
 include: ["_pages"]
 permalink: /:title/
+url: 'https://fabiryan.com'
 
 # Authors
 authors:
