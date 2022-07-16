@@ -5,9 +5,84 @@
     <description>IT로 시작하는 스마트라이프</description>
     <link>https://fabiryan.com/</link>
     <atom:link href="https://fabiryan.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Jul 2022 20:07:27 -0500</pubDate>
-    <lastBuildDate>Sun, 10 Jul 2022 20:07:27 -0500</lastBuildDate>
+    <pubDate>Sat, 16 Jul 2022 02:44:00 -0500</pubDate>
+    <lastBuildDate>Sat, 16 Jul 2022 02:44:00 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>iOS&amp;iPadOS 16: 사파리 탭그룹을 활용하자</title>
+        <description>&lt;p&gt;iOS 16, iPadOS 16을 설치하고 사파리에서 가장 크게 느껴졌던 변화는 바로 사파리의 번역 기능이었다. 애플의 자체 번역 엔진을 활용해 웹페이지를 그대로 번역해주는데 그 퀄리티가 좋아서 놀라며 사용했었다. (크롬에는 이미 있는 기능이었을지도…) 애플 기본앱이어서 지울 수 없기도 하고 굳이 하나의 기기에 두개의 브라우저 앱을 깔고 싶지 않아 사파리만 사용하는 나로서는 한국어 외의 웹사이트를 서핑하는데 큰 도움이 된 업데이트였다. 사실 머신러닝이 너무 발달해 파파고나 구글 번역도 충분히 좋은 퀄리티를 보여주고 있어서 번역의 퀄리티가 월등하다..! 라고 말할수는 없지만 단 두번의 탭으로 웹페이지 전체가 자연스럽게 한국어 웹사이트로 변하는 경험은 이번 업데이트에서 사파리 부분의 하이라이트였다. 탭 그룹의 활용도를 발견하기 전까지는.&lt;/p&gt;
+
+&lt;h2 id=&quot;탭-그룹이란&quot;&gt;탭 그룹이란?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://support.apple.com/ko-kr/guide/iphone/iph3028ebf68/ios&quot;&gt;공식 사용법&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;사실 탭 그룹은 iOS, iPadOS 15에서 발표된 기능이었다. 당시에는 그냥 탭을 열어놓고 그 탭을 그룹으로 지정하여 저장해서 여러 기기에서 연동해서 사용하는 기능이었던 걸로 기억한다. 이 기능을 처음 접했을 때는 (지금도 그렇지만) 웹서핑이 끝나면 모든 탭을 닫아야 하는 병을 앓고 있기 때문에 내게 별로 의미있는 기능이 아니었다. 그래서 어떤 탭 그룹을 만들어도 결국 모든 탭 그룹에 하나의 웹페이지도 남지 않아 모든걸 포기하고 사용하는 것을 그만두었다.&lt;/p&gt;
+
+&lt;h2 id=&quot;무엇이-변했길래&quot;&gt;무엇이 변했길래?&lt;/h2&gt;
+&lt;p&gt;그럼 과연 무엇이 변했길래 탭 그룹을 갑자기 사용하게 되었고 이렇게 포스팅까지 하게 되었을까? 바로 &lt;strong&gt;탭 그룹 별 북마크, 즐겨찾기&lt;/strong&gt; 기능이다. 이 기능은 간단히 설명하면 용도에 따라 다른 브라우저를 쓰는 듯 한 경험을 사파라에서 제공한다.&lt;/p&gt;
+
+&lt;p&gt;나의 경우 위에 커버 이미지에 보이듯 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Work&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Development&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Entertainment&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NAS&lt;/code&gt; 로 크게 탭 그룹을 만들고 사용하고 있는데 각각의 용처는 다음과 같다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Work : 회사에서 업무상 필요한 웹페이지들을 모아놓는 곳&lt;/li&gt;
+  &lt;li&gt;Development : 개발 관련해서 개인적으로 관심있는 소식이나 프레임워크 공식 페이지 등을 모아놓는 곳&lt;/li&gt;
+  &lt;li&gt;Entertainment : 쉬는 시간에 보는 웹툰이나 영상 관련 웹페이지를 모아놓는 곳&lt;/li&gt;
+  &lt;li&gt;NAS : 개인 NAS에서 실행하는 모든 관련 일들을 모아놓는곳. 이 탭그룹은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Smart Home&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Blog&lt;/code&gt; 등으로 분리할 여지가 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;위에 &lt;em&gt;모아놓은 곳&lt;/em&gt; 이라는 말은 탭을 켜놓는다는 얘기가 아니라 탭 그룹별로 사파리 홈 페이지를 커스텀 하여 북마크나 즐겨찾기 형태로 모아놓는 것을 말한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;어떻게-커스텀-홈페이지를-만들까&quot;&gt;어떻게 커스텀 홈페이지를 만들까?&lt;/h3&gt;
+&lt;p&gt;먼저, 사파리에 있는 공유 버튼을 누른다. 이미 탭 그룹을 만든 상태라면 공유 버튼을 눌렀을때 아래와 같은 메뉴들이 나타난다.
+&lt;img src=&quot;/assets/images/ios-ipados-16-safari-tab-group/share.PNG&quot; alt=&quot;Tab Group Share Menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;여기서 바로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Add to &quot;TabGroupName&quot; Favorites&lt;/code&gt;를 통해 바로 특정 탭 그룹의 즐겨찾기에 추가하거나 해당 옵션이 안보인다면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Add Bookmark (책갈피 추가)&lt;/code&gt; 를 누른 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Location (위치)&lt;/code&gt;를 클릭해 다음과 같은 화면을 띄운다.
+&lt;img src=&quot;/assets/images/ios-ipados-16-safari-tab-group/bookmark.PNG&quot; alt=&quot;Tab Group Share Menu Bookmark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;여기서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Other Tab Group Favorites (탭 그룹 즐겨찾기)&lt;/code&gt;에 원하는 탭 그룹을 선택하고 저장하면 그 탭 그룹만의 즐겨찾기에 포함되게 된다. 이렇게 각 탭그룹에 즐겨찾기에 충분한 웹페이지를 포함시키면 탭 그룹에 아무 페이지가 없어도 탭 그룹을 클릭할때마다 해당 홈페이지가 뜨게 되고 마치 탭 그룹을 하나의 브라우저를 사용하듯 이용할 수 있게 된다.&lt;/p&gt;
+
+&lt;h3 id=&quot;α&quot;&gt;+α&lt;/h3&gt;
+&lt;p&gt;심지어는 iOS 15에서 출시된 원래 탭 그룹의 기능인 아이클라우드 싱크도 작동하면서 탭 그룹은 더 파워풀해진다. 사파리의 용도를 분리한 탭 그룹들은 기기간 서로 연동되어 탭을 생성하거나 지우는데, 그저 의미없는 웹서핑이 아닌 의도를 가진 웹서핑을 할 때 대단히 유용해진다. 나의 경우를 예로 들면 블로그를 만들때에도 아이폰에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NAS&lt;/code&gt; 탭 그룹에 블로그 페이지와 구글 아날리틱스, 이번 포스팅 관련 글 등을 켜놓고 보다가 실제로 아이패드로 블로그 글을 작성할때 해당 페이지들을 아이패드에서 바로 참고하면서 글을 작성한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;마치며&quot;&gt;마치며&lt;/h2&gt;
+&lt;p&gt;앞선 두개의 포스팅과 같은 결의 활용법이다. 결국 삶을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;일&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;엔터테인먼트&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;개인작업&lt;/code&gt; 등으로 카테고라이징 하고 각각의 카테고리가 서로를 침범하지 않도록 기기나 소프트웨어를 자동화 하는 방식이다. 개인적으론 이렇게 디바이스와 소프트웨어를 분리하는게 삶을 더 편하게 만든다고 느껴진다. 집중해야 할때 집중할 수 있는 환경을 만들고, 릴렉스 해야 할때 릴렉스 할 수 있는 환경을 만드는 것 말이다.&lt;/p&gt;
+
+&lt;p&gt;이번 포스팅을 마지막으로 iOS &amp;amp; iPadOS 16에서 느꼈던 크게 좋았던 점들에 대해서는 모두 포스팅했다. 앞으로는 조금 더 일반적으로 내가 디바이스, 소프트웨어 들을 어떻게 활용하는 지에 대해서 서술할 예정이다. 모쪼록 이 글들이 다른 사람들의 삶을 편하게 하는데도 도움이 되길 바란다.&lt;/p&gt;
+
+&lt;!-- 
+---
+layout: post
+title:  &quot;Inception Movie&quot;
+author: john
+categories: [ Jekyll, tutorial ]
+tags: [red, yellow]
+image: assets/images/11.jpg
+description: &quot;My review of Inception movie. Actors, directing and more.&quot;
+rating: 4.5
+featured: true
+hidden: false
+beforetoc: &quot;Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post.&quot;
+toc: true // 목차를 사용할 것인지
+--- 
+--&gt;
+</description>
+        <pubDate>Tue, 12 Jul 2022 00:00:00 -0500</pubDate>
+        <link>https://fabiryan.com/ios16-safari/</link>
+        <guid isPermaLink="true">https://fabiryan.com/ios16-safari/</guid>
+        
+        
+        <category>apple</category>
+        
+        <category>tech</category>
+        
+        <category>ipados16</category>
+        
+        <category>ios16</category>
+        
+        <category>safari</category>
+        
+      </item>
     
       <item>
         <title>iPadOS 16: 스테이지 매니저 적응 및 활용기</title>
@@ -33,7 +108,7 @@
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;외장-모니터-연결-게임을-바꾸다&quot;&gt;외장 모니터 연결, 게임을 바꾸다&lt;/h2&gt;
-&lt;p&gt;이렇게 스테이지 매니저에 부정적이었던 내가 이 기능을 사랑하게 된 계기는 바로 외장모니터 연결이었다. 
+&lt;p&gt;이렇게 스테이지 매니저에 부정적이었던 내가 이 기능의 팬이 된 계기는 바로 외장모니터 연결이었다. 
 외장 모니터에 아이패드를 연결하는 순간 외장 모니터의 화면은 복제가 아닌 확장되며 스테이지 매니저의 형태로 구동된다. 이때의 스테이지 매니저는 아이패드 프로 11인치에서 느꼈던 단점들을 모두 없애고 충분히 매력적인 멀티태스킹 옵션으로 다가왔는데,&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;스테이지 뷰, 독을 없애지 않아도 충분히 큰 화면&lt;/li&gt;
@@ -136,6 +211,8 @@ toc: true // 목차를 사용할 것인지
         <category>tech</category>
         
         <category>ipados16</category>
+        
+        <category>stage_manager</category>
         
       </item>
     
@@ -241,6 +318,8 @@ toc: true // 목차를 사용할 것인지
         <category>tech</category>
         
         <category>ios16</category>
+        
+        <category>focus_mode</category>
         
       </item>
     
