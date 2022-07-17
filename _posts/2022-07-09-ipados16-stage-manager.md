@@ -5,7 +5,7 @@ author: ryan
 categories: [ apple, tech, ipados16, stage_manager ]
 image: assets/images/ipados16-stage-manager/cover.JPG
 description: "iPadOS 16: 스테이지 매니저에 어떻게, 왜 빠지게 되었을까?"
-featured: true
+featured: false
 hidden: false
 --- 
 
